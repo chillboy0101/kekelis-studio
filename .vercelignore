@@ -1,0 +1,13 @@
+.next
+out
+node_modules
+.git
+.gitignore
+.vscode
+*.log
+.env.local
+.env.*.local
+lighthouse-final-*.json
+media-originals
+media-540p-backup
+image-originals

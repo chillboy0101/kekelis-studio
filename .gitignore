@@ -1,0 +1,14 @@
+.vercel
+node_modules
+.next
+out
+media-originals
+media-540p-backup
+image-originals
+.env.local
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+ lighthouse-final-*.json

@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-pill-primary {
+    @apply bg-primary text-contrast-dark rounded-full font-semibold hover:bg-primary-hover transition-colors;
+    color: #000000 !important;
+    @apply px-10 py-4 text-base sm:text-lg;
+  }
+
+  .btn-pill-outline {
+    @apply bg-transparent border border-contrast-light text-contrast-light rounded-full font-semibold;
+    @apply hover:bg-contrast-light hover:text-mono-1 transition-colors;
+    @apply px-10 py-4 text-base sm:text-lg;
+  }
+}
+
+.hero-home-bg {
+  background-position: 50% 25%;
+}
+
+.no-media-download {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+@media (min-width: 1024px) {
+  .hero-home-bg {
+    background-position: 50% 32%;
+  }
+}
